@@ -1,0 +1,96 @@
+.mood.dark {
+  position: fixed;
+  top: 50%;
+  left: -60px;
+  padding: 1em;
+  background: black;
+  transition: 0.5s;
+}
+.mood.dark::after {
+  content: "D";
+  color: white;
+}
+.mood.dark:hover::after {
+  content: "";
+}
+.mood.dark:hover {
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  left: -3px;
+}
+.mood {
+  position: fixed;
+  top: 50%;
+  left: -60px;
+  padding: 1em;
+  background: black;
+  transition: 0.5s;
+}
+.mood::after {
+  content: "D";
+  color: white;
+}
+.mood:hover::after {
+  content: "";
+}
+.mood:hover {
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  left: -3px;
+}
+
+.mood {
+  position: fixed;
+  top: 50%;
+  left: -57px;
+  padding: 1em;
+  background: white;
+  transition: 0.5s;
+}
+.mood::after {
+  content: "L";
+  color: black;
+}
+.mood:hover::after {
+  content: "";
+}
+.mood:hover {
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  left: -3px;
+}
+
+/* toggle between light and dark */
+
+.dark .nav {
+  background-color: black;
+}
+
+.dark .sections {
+  background-color: rgb(0, 16, 33);
+  color: white;
+}
+.dark .link {
+  color: white;
+}
+.dark .section__left .desc {
+  color: rgb(180, 180, 180);
+}
+.dark .rating {
+  background-color: rgb(0, 37, 85);
+  color: white;
+}
+.dark .avatar {
+  border: 2px solid white;
+  width: 62px;
+  height: 62px;
+}
+.dark .testmonial .text {
+  color: white;
+}
+.dark .testmonial .about span:first-child {
+  color: var(--Dark-moderate-cyan);
+}
